@@ -1,0 +1,12 @@
+.divider-vr {
+  width: 2px !important;
+}
+
+.divider-hr {
+  height: 2px !important;
+}
+
+.header-remove {
+  height: 40px;
+  width: 100%;
+}
