@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -38,14 +39,34 @@ function Header() {
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-end flex-grow-1">
               <li className="nav-item">
-                <a className="nav-link me-lg-3" href="/projects">
+                <Link
+                  className="nav-link me-lg-3"
+                  to="/projects"
+                  onClick={() => {
+                    // Close the offcanvas menu
+                    const offcanvas =
+                      document.getElementById("offcanvasNavbar");
+                    const bsOffcanvas = new bootstrap.Offcanvas(offcanvas);
+                    bsOffcanvas.hide();
+                  }}
+                >
                   Projects
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link me-lg-3" href="/about">
+                <Link
+                  className="nav-link me-lg-3"
+                  to="/about"
+                  onClick={() => {
+                    // Close the offcanvas menu
+                    const offcanvas =
+                      document.getElementById("offcanvasNavbar");
+                    const bsOffcanvas = new bootstrap.Offcanvas(offcanvas);
+                    bsOffcanvas.hide();
+                  }}
+                >
                   Connect
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

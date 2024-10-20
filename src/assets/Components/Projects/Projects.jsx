@@ -46,13 +46,14 @@ function Projects() {
         <div className="row gap-2 container justify-content-between mt-2 p-0 m-0">
           <div className="col-12 col-md bg-white d-flex flex-column shadow-sm align-items-center rounded-2 p-2">
             <img
-              src="/src/assets/Images/Projects/eliteevents.png"
+              src="./Projects/eliteevents.png"
               className="img-fluid rounded-2"
             />
             <div className="mt-3 d-flex flex-column flex-grow-1">
               <a
                 className="fw-bold nav-link d-flex align-items-center fs-3"
-                href="#"
+                href="https://theab10hd.github.io/Event-Management-Booking/"
+                target="_blank"
               >
                 Elite Events
                 <i className="fa-solid fa-arrow-up-right-from-square ms-2 fs-6"></i>
@@ -63,7 +64,7 @@ function Projects() {
               </p>
               <div className="mt-auto">
                 <a
-                  href=""
+                  href="https://github.com/theab10hd/Event-Management-Booking"
                   target="_blank"
                   className="btn btn-outline-dark mt-2"
                 >
@@ -74,14 +75,15 @@ function Projects() {
           </div>
           <div className="col-12 col-md bg-white d-flex flex-column shadow-sm align-items-center rounded-2 p-2 ">
             <img
-              src="/src/assets/Images/Projects/simplebank.png"
+              src="./Projects/simplebank.png"
               className="img-fluid rounded-2"
             />
             <div className="mt-3 d-flex flex-column flex-grow-1">
               <div>
                 <a
                   className="fw-bold nav-link fs-3 d-flex align-items-center"
-                  href="#"
+                  target="_blank"
+                  href="https://theab10hd.github.io/Simple-Online-Banking-Website/"
                 >
                   Simple Bank (Localstorage)
                   <i className="fa-solid fa-arrow-up-right-from-square ms-2 fs-6"></i>
@@ -93,7 +95,7 @@ function Projects() {
               </div>
               <div className="mt-auto">
                 <a
-                  href=""
+                  href="https://github.com/theab10hd/Simple-Online-Banking-Website"
                   target="_blank"
                   className="btn btn-outline-dark mt-2"
                 >
@@ -104,13 +106,13 @@ function Projects() {
           </div>
           <div className="col-12 col-md bg-white d-flex flex-column shadow-sm align-items-center rounded-2 p-2">
             <img
-              src="/src/assets/Images/Projects/polyportal.png"
+              src="./Projects/polyportal.png"
               className="img-fluid rounded-2"
             />
             <div className="mt-3 d-flex flex-column flex-grow-1">
               <a
                 className="fw-bold nav-link d-flex align-items-center fs-3"
-                href="#"
+                href="https://polyportalstudents.netlify.app/"
               >
                 Poly Portal
                 <i className="fa-solid fa-arrow-up-right-from-square ms-2 fs-6"></i>
@@ -121,7 +123,7 @@ function Projects() {
               </p>
               <div className="mt-auto">
                 <a
-                  href=""
+                  href="https://github.com/theab10hd/Poly-Portal"
                   target="_blank"
                   className="btn btn-outline-dark mt-2"
                 >
@@ -134,13 +136,14 @@ function Projects() {
         <div className="row gap-2 container justify-content-between mt-2 p-0 m-0">
           <div className="col-12 col-md bg-white d-flex flex-column shadow-sm align-items-center rounded-2 p-2">
             <img
-              src="/src/assets/Images/Projects/interest calculator.png"
+              src="./Projects/interest calculator.png"
               className="img-fluid rounded-2"
             />
             <div className="mt-3 d-flex flex-column flex-grow-1">
               <a
                 className="fw-bold nav-link d-flex align-items-center fs-3"
-                href="#"
+                href="https://voluble-cheesecake-6286e6.netlify.app/"
+                target="_blank"
               >
                 Simple Interest Calculator
                 <i className="fa-solid fa-arrow-up-right-from-square ms-2 fs-6"></i>
@@ -152,7 +155,7 @@ function Projects() {
               </p>
               <div className="mt-auto">
                 <a
-                  href=""
+                  href="https://github.com/theab10hd/Simple-Interest-Calculator-React"
                   target="_blank"
                   className="btn btn-outline-dark mt-2"
                 >
@@ -163,14 +166,15 @@ function Projects() {
           </div>
           <div className="col-12 col-md bg-white d-flex flex-column shadow-sm align-items-center rounded-2 p-2">
             <img
-              src="/src/assets/Images/Projects/calculator.png"
+              src="./Projects/calculator.png"
               className="img-fluid rounded-2"
             />
             <div className="mt-3 d-flex flex-column flex-grow-1">
               <div>
                 <a
                   className="fw-bold nav-link fs-3 d-flex align-items-center"
-                  href="#"
+                  target="_blank"
+                  href="https://theab10hd.github.io/Calculator/"
                 >
                   Simple Calculator
                   <i className="fa-solid fa-arrow-up-right-from-square ms-2 fs-6"></i>
@@ -183,7 +187,7 @@ function Projects() {
               </div>
               <div className="mt-auto">
                 <a
-                  href=""
+                  href="https://github.com/theab10hd/Calculator"
                   target="_blank"
                   className="btn btn-outline-dark mt-2"
                 >
@@ -193,14 +197,12 @@ function Projects() {
             </div>
           </div>
           <div className="col-12 col-md bg-white d-flex flex-column shadow-sm align-items-center rounded-2 p-2">
-            <img
-              src="/src/assets/Images/Projects/todo.png"
-              className="img-fluid rounded-2"
-            />
+            <img src="./Projects/todo.png" className="img-fluid rounded-2" />
             <div className="mt-3 d-flex flex-column flex-grow-1">
               <a
                 className="fw-bold nav-link d-flex align-items-center fs-3"
-                href="#"
+                href="https://theab10hd.github.io/Simple-Javascript-ToDo-/"
+                target="_blank"
               >
                 Todo
                 <i className="fa-solid fa-arrow-up-right-from-square ms-2 fs-6"></i>
@@ -212,7 +214,7 @@ function Projects() {
               </p>
               <div className="mt-auto">
                 <a
-                  href=""
+                  href="https://github.com/theab10hd/Simple-Javascript-ToDo-"
                   target="_blank"
                   className="btn btn-outline-dark mt-2"
                 >

@@ -29,7 +29,7 @@ const GetMail = () => {
                 type="submit"
                 name="subscribe"
                 id="mc-embedded-subscribe"
-                className="button btn btn-dark "
+                className="button btn btn-secondary "
                 value="Get a mail from Me"
               />
             </div>

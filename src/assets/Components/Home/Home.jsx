@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -10,10 +11,20 @@ function Home() {
       </div>
       <div className="container p-0 d-flex align-items-end mt-2">
         <h3 className="text-dark">
-          <span className="fw-bold text-black">Hey, I'm Abhijith Gaganan,</span>
+          <span className="fw-bold text-black mt-3 mt-lg-0">
+            Hey, I'm Abhijith Gaganan,
+          </span>
           I do full-stack web development and designing, crafting seamless and
           visually compelling digital experiences from end to end.
         </h3>
+      </div>
+      <div className="container p-0 d-block d-lg-none text-start">
+        <Link to="/projects">
+          <div className="btn btn-dark me-2">Projects</div>
+        </Link>
+        <Link to="/about">
+          <div className="btn btn-dark ">About Me</div>
+        </Link>
       </div>
     </section>
   );
