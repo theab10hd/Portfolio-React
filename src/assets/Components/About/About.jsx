@@ -62,9 +62,13 @@ function About() {
                 <i className="fa-brands text-dark fa-instagram fa-2xl p-3"></i>
               </a>
             </div>
-            <div className="btn btn-dark mt-4">
+            <a
+              className="btn btn-dark mt-4"
+              href="/Files/Resume.pdf"
+              download="Resume-AbhijithGaganan.pdf"
+            >
               <i className="fa-solid fa-download me-2"></i>Resume
-            </div>
+            </a>
           </div>
           <hr className="divider-vr bg-secondary p-0 d-lg-block d-none " />
           <hr className="divider-hr bg-secondary p-0 d-block d-lg-none" />
@@ -134,7 +138,7 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="mt-lg-5 p-3 bg-dark d-flex flex-column align-items-center justify-content-center text-light rounded-2 shadow">
+        <div className="mb-3 p-3 bg-dark d-flex flex-column align-items-center justify-content-center text-light rounded-2 shadow">
           <GetMail />
           <p className="text-center mt-2 mb-0">
             Stay connected! Get a mail from me to receive <br /> updates on my

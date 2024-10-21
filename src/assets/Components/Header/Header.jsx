@@ -6,8 +6,8 @@ function Header() {
   return (
     <nav className="navbar navbar-expand-lg fixed-top">
       <div className="container ">
-        <a className="navbar-brand fw-bolder" href="/">
-          Abhijith Gaganan
+        <a className="navbar-brand fw-bolder " href="/">
+          AbhijithGaganan.
         </a>
         <button
           className="navbar-toggler"
@@ -40,7 +40,7 @@ function Header() {
             <ul className="navbar-nav justify-content-end flex-grow-1">
               <li className="nav-item">
                 <Link
-                  className="nav-link me-lg-3"
+                  className="nav-link me-lg-3 "
                   to="/projects"
                   onClick={() => {
                     // Close the offcanvas menu
